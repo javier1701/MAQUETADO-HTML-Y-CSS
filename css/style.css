@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c8c77e;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 5px solid #ecd109;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(242, 245, 247);
+}
+
+header {
+    color: black;
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    background-color: rgb(242, 245, 247);
+}
+
+nav a{
+    margin: 0 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+#contenido {
+    width: 70%;
+    max-height: 100%;
+    background-color: #51b8e8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    height: 650px;
+}
+
+
+#contenido h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#contenido p {
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 29%;
+    height: 100%;
+    color: white;
+    background-image: url(https://i.redd.it/0aahvjoxu3b81.png);
+    background-size: cover;
+    margin-top: 10px;
+    float:right;
+}
+
+aside h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 548px;
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+footer{
+    background-color:black;
+    color:white;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 700;
+}
